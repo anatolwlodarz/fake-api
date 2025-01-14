@@ -1,4 +1,6 @@
-        {
+{
+    "tables": [
+            {
             "name": "PrimaryResult",
             "columns": [
                 {
