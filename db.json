@@ -1,11 +1,49 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+        {
+            "name": "PrimaryResult",
+            "columns": [
+                {
+                    "name": "NamespaceName_s",
+                    "type": "string"
+                },
+                {
+                    "name": "EntityName_s",
+                    "type": "string"
+                },
+                {
+                    "name": "ChildEntityName_s",
+                    "type": "string"
+                },
+                {
+                    "name": "PartitionId_s",
+                    "type": "string"
+                },
+                {
+                    "name": "TimeGenerated",
+                    "type": "datetime"
+                },
+                {
+                    "name": "Count_d",
+                    "type": "real"
+                }
+            ],
+            "rows": [
+                [
+                    "dev-we-cdi-general-evhns",
+                    "com.sap.cxsies.learning-entitlements.delivery.00.dev",
+                    "dev-cxsies-consumer-it",
+                    "0",
+                    "2025-01-13T14:52:49.5500656Z",
+                    0
+                ],
+                [
+                    "dev-we-cdi-general-evhns",
+                    "com.sap.cxsies.learning-entitlements.delivery.00.dev",
+                    "dev-cxsies-consumer-it",
+                    "1",
+                    "2025-01-13T14:52:46.1957684Z",
+                    0
+                ]
+            ]
+        }
+    ]
 }
